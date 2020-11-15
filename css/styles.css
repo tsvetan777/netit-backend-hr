@@ -1,0 +1,188 @@
+* {
+    margin  : 0;
+    padding : 0;
+}
+
+body {
+    background  : #d6d6d6;
+}
+
+.wrapper {
+    margin      : auto;
+    margin-top  : 50px;
+    width       : 500px;
+}
+
+.logo {   
+    display         : inline;
+    text-transform  : capitalize;
+    font-size       : 30px;
+    color           : #fff;
+}
+
+.nav {
+    background-color    : #b3b3b3;
+    border              : solid #7952b3 1px;
+    border-radius       : .25rem;
+    justify-content     : space-around;
+    padding             : 5px;
+}
+
+.navbar {
+    background  : #7952b3;
+}
+
+.head-nav {
+    display         : inline-block;
+    padding         : 5px;
+    color           : #fff;
+    text-transform  : capitalize;
+}
+
+.link-nav:hover {
+  color : #d6d6d6;
+}
+
+.link-nav {
+    text-decoration : none;
+    color           : #fff;
+    text-transform  : capitalize;
+}
+
+a.link-nav.link-head:hover {
+    align-self   : center;
+}
+
+#content {
+    margin-top  : 35px;   
+}
+
+.container {
+    margin-right    : 0;
+    margin-left     : 0;
+    display         : inline-flex;
+    background      : #fff; 
+    border          : solid #dddddf 1px;
+    border-radius   : .25rem
+}
+
+.container ul {
+    display      : inline-flex;
+}
+
+#content-full-view {
+    display : none;
+}
+
+#full-view-job-container {
+    border-bottom   : none;
+}
+
+.form-inline .custom-select, .form-inline .form-control {
+    width           : 100%;
+    margin-bottom   : 5px;
+    margin-left : 8px;
+}
+
+input, textarea {
+    display : block;
+}
+
+.job {
+    display         : flex;
+    padding         : 10px;
+    border-bottom   : solid #dedede 1px;
+}
+
+.job-title {
+    font-weight : bold;
+}
+
+.job-timestamp {
+    font-size   : 10px;
+}
+
+.dashboard {
+    margin      : auto;
+    margin-top  : 70px;
+}
+
+.d-flex {
+    margin  : auto;
+}
+
+.btn {
+    background      : #7952b3;
+    border          : none;
+    text-transform  : capitalize;
+    padding         : 5px;
+    cursor          : pointer;
+}
+
+.btn-primary {
+    background      : #9566dd;
+    border-color    : #9566dd;
+}
+
+.btn-primary:hover {
+  background-color  : #7952b3;
+  border-color      : #7952b3;
+}
+
+.btn-outline-success {
+  color         : #b3b3b3;
+  border-color  : #9566dd;
+}
+
+.btn-outline-success:hover {
+  color             : #fff;
+  background-color  : #9566dd;
+  border-color      : #9566dd;
+}
+
+.message {
+    padding     : 5px;
+    font-weight : bold;
+}
+
+.error {
+    background  : #ff0000;
+}
+
+.success {
+    background  : #00ff00;
+}
+
+a {
+    align-self  : center;
+    color       : #9566dd;
+}
+
+a:hover {
+    color   : #7952b3;
+}
+
+ul li a {
+    color   : #ad77ff;
+}
+
+dl, ol, ul {
+    margin-top      : 0;
+    margin-bottom   : 0;
+}
+
+.col-8, .col-2 {
+    align-items : center;
+}
+
+.h-160 {
+    height  : 160px;
+}
+
+.h-40 {
+    height  : 40px;
+}
+
+.m-b-5 {
+    margin-bottom   : 5px;
+}
